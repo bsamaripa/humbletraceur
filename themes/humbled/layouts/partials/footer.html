@@ -1,0 +1,24 @@
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          &copy; {{ .Site.Copyright}} {{ dateFormat "2006" now }}
+        </p>
+        <p>
+          <a class="icon" href="https://creativecommons.org/licenses/by-nc/4.0">
+            <i class="fa fa-creative-commons" aria-hidden="true"></i>
+          </a>
+          <a class="icon" href="https://github.com/bsamaripa/humbletraceur">
+            <i class="fa fa-github"></i>
+          </a>
+          <a class="icon" href="{{ .RSSLink }}">
+            <i class="fa fa-feed"></i>
+          </a>
+        </p>
+           <!-- <figure class="image is-64x64">
+            <img src="{{ .Site.BaseURL }}/img/lotus.png">
+          </figure>  -->
+      </div>
+    </div>
+  </footer>
+</html>

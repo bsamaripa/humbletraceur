@@ -1,0 +1,10 @@
+title = "The Humble Traceur"
+baseurl = "https://humbletraceur.com"
+theme = "humbled"
+languageCode = "en-us"
+copyright = "Byron Samaripa"
+description = "A traceurs journey."
+
+paginate = 5
+enableRobotsTXT = true
+SectionPagesMenu = "main"

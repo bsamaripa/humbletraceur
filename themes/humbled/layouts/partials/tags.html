@@ -1,0 +1,8 @@
+<!-- Content Tags -->
+<!-- TODO: Convert to Bulma -->
+
+<div class="tags">
+    {{ range . }}
+        <a class="button is-link" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+</div>
